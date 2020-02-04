@@ -1,5 +1,7 @@
 h1,
 h2 {
-            color: green;
-            font-family: fantasy;
-        }
+    color: green;
+    font-family: fantasy;
+    background-color: aqua;
+}
+body {background-color: orange;}
