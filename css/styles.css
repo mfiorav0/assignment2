@@ -4,4 +4,25 @@ h2 {
     font-family: fantasy;
     background-color: aqua;
 }
-body {background-color: orange;}
+features {
+    color: red;
+    font-family: cursive;
+}
+
+
+body {background-color: gray;}
+
+@media screen and (max-width: 30rem) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }
+}
+ul li{
+    color: red;
+}
+p {
+    color: greenyellow;
+}
