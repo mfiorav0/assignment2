@@ -4,15 +4,19 @@ h2 {
     font-family: fantasy;
     background-color: aqua;
 }
+
 features {
     color: red;
     font-family: cursive;
 }
 
 
-body {background-color: gray;}
+body {
+    background-color: gray;
+}
 
 @media screen and (max-width: 30rem) {
+
     header,
     main,
     footer,
@@ -20,9 +24,23 @@ body {background-color: gray;}
         flex-direction: column;
     }
 }
-ul li{
+
+ul li {
     color: red;
 }
+
 p {
     color: greenyellow;
+}
+
+#StoryMessage {
+    color: orange;
+    border: 5px solid #903d3d;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.rescuedtreasures {
+    color: gold;
+    font-family: cursive;
 }
